@@ -1,4 +1,4 @@
-package prob1;
+package tut14;
 
 /**
  * Represents a baskeball player
@@ -42,6 +42,7 @@ public class BasketballPlayer {
 	 */
 	public BasketballPlayer(String name) {
 		this.name = name;
+		this.freeThrowsAttempted = 0;
 	}
 
 	/**
